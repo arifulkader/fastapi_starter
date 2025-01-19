@@ -1,0 +1,34 @@
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+.env
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# FastAPI specific
+*.log
+*.db
+*.sqlite3
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test specific
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
