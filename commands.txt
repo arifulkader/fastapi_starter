@@ -1,1 +1,5 @@
-fastapi dev main.py
+# Start fastapi app  : fastapi dev main.py
+# Initialize Alembic : alembic init alembic
+# : alembic check  (Alembic provides the alembic check command. This command will run through the same process as alembic revision --autogenerate, up until the point where revision files would be generated, however does not generate any new files. Instead, it returns an error code plus a message if it is detected that new operations would be rendered into a new revision, or if not, returns a success code plus a message. When alembic check returns a success code, this is an indication that the alembic revision --autogenerate command would produce only empty migrations, and does not need to be run.)
+# To create migration file : alembic revision --autogenerate -m "Added account table"
+# To make change on db : alembic upgrade head
